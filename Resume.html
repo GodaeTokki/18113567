@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Resume </title>
+	<style>
+	body{ background-color: aqua; }
+	*{
+		float: left;
+	}
+		.container{
+			border:solid white;
+			text-align: center;
+			background-color: skyblue;
+		}
+		.col1{
+			width: 25%;
+			background-color: white;
+		}
+		.col2{
+			font-size: 20px;
+			float:left;
+		}
+		.col3{
+			font-style: italic;
+			font-size: 20px;
+			clear: left;
+		}
+		.col4{
+
+			font-style: italic;
+			font-size: 20px;
+			float: right;
+		}
+		img{
+			width: 100%;
+			}
+		@media only screen and (min-width: 600px){
+		[class*="col-"] {
+       		width: 100%;
+    	}
+
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 41.66%;}
+		.col-6 {width: 49%; float: left;}
+ 		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 72.9%;}
+ 		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;}
+		}
+
+		@media only screen and (max-width: 600px) {
+			[class*="col-"] {
+       			width: 100%;
+    		}
+
+    		.col-m-1 {width: 8.33%;}
+			.col-m-2 {width: 16.66%;}
+			.col-m-3 {width: 25%;}
+			.col-m-4 {width: 33.33%;}
+			.col-m-5 {width: 41.66%;}
+			.col-m-6 {width: 50%; text-align: center; margin-left: 25%}
+ 			.col-m-7 {width: 58.33%;}
+			.col-m-8 {width: 66.66%;}
+			.col-m-9 {width: 75%;}
+ 			.col-m-10 {width: 83.33%;}
+			.col-m-11 {width: 91.66%;}
+			.col-m-12 {width: 100%;}
+		}
+	</style>
+</head>
+<body>
+	<div class="container col-m-12"> <h1> 18113567 Kwon Hyeok-gyu </h1> </div>
+	<div class="col1 col-3 col-m-6"> <img src="Gyu.jpg"> </div>
+	<div class="col2 col-9 col-m-12">
+		<ul>
+			<li> Name : Kwon Hyeok-gyu </li><br>
+			<li> Age : 20 </li><br>
+			<li> Birth : 1999.10.12 </li><br>
+			<li> Sex : Man </li><br>
+			<li> E-mail : rnjsgurrb99@naver.com </li><br>
+			<li> Major : IT engineering department </li><br>
+			<li> Hobby : Playing a computer game, Reading a book, Watching a movie </li><br>
+		</ul>
+	</div>
+
+	<div class="col3 col-6 col-m-12"> 
+		GRADUATION<br>
+		<ul>
+			<li> 왕선 elementary school </li><br>
+			<li> 왕선 middle school </li><br>
+			<li> 호산 high school </li><br>
+		</ul>
+		
+	</div>
+
+	<div class="col4 col-6 col-m-12">
+		MY DREAM<br>
+		My dream is robot researcher.<br>
+		So I choose IT engineering department for my major.<br>
+		I learn many thing so I want to achieve my dream.<br>
+	</div>
+
+
+</body>
+</html>
